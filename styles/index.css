@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* Banner Design */
+#banner {
+    background-color: #c6e4d6;
+    height: 560px;
+    width: 1280px;
+    margin: 20px 160px 80px 160px;
+    border-radius: 8px;
+}
+
+.banner-page {
+    display: flex;
+}
+
+.banner-text {
+    height: 326px;
+    width: 622px;
+    margin: 117px 68px 117px 60px;
+}
+.banner-subtitle{
+    font-family: Fira sans;
+    color: #6a7972;
+    font-size: 24px;
+    font-weight: 600px;
+}
+.banner-title{
+    font-family: Fira sans;
+    color: #0E0E0E;
+    font-size: 56px;
+    font-weight: bold;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+.banner-button{
+    width: 270px;
+    height: 56px;
+    background-color: #006A50;
+    font-family: Fira sans;
+    color: #FFFFFF;
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600px;
+    margin-bottom: 117px;
+}
+.banner-button:hover{
+    background-color: #014333;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    font-size: 19px;
+}
+.banner-image{
+    margin: 80px 60px 80px auto;
+}
