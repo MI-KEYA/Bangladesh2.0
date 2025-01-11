@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Fira sans;
 }
 body{
     background-color: #F5F5F5;
@@ -347,6 +348,8 @@ body{
     border: none;
     text-align: center;
     border: 3px solid #F1F1F3;
+    font-size: 20px;
+    color: #0e0e0ec1;
 }
 .donate-btn-div{
     display: flex;
@@ -366,9 +369,95 @@ body{
     cursor: pointer;
     background-color: #006A50;
     align-items: center;
+    
+
 }
 .donate-btn:hover{
     background-color: #50cb94;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     font-size: 19px;
+}
+
+/* newsletter subscription page design */
+#news-letter-page{
+    background-color: #c6e4d6;
+    height: 450px;
+    max-width: 1280px;
+    margin: 80px 160px ;
+    border-radius: 8px; 
+}
+.newsletter{
+    padding: 80px 256px;
+}
+.newsletter-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    color: #0E0E0E;
+}
+.newsletter-description, .promise{
+    font-size: 16px;
+    line-height: 24px;
+    color: #0e0e0e9d;
+    text-align: center;
+    margin-top: 16px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding-left: 20px ;
+    margin-bottom: 25px;
+    margin-top: 24px;
+}
+.input-email{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+}
+.email-btn{
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    color: white;
+    background: #006A50;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.email-btn:hover{
+    background-color: #50cb94;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    font-size: 19px;
+}
+
+/* footer design */
+footer{
+    background-color: #FFFFFF;
+    height: 200px;
+    width: 80%;
+    padding: 50px 160px;
+}
+.footer-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.social-icon-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 23px;
+    margin-top: 32px;
+}
+hr{
+    width: 900px;
+    margin: 0 auto;
+    color: #0e0e0e16;
 }
