@@ -94,6 +94,10 @@ body{
     margin-top: 32px;
     padding: 32px;
 }
+.digital-transformation-card:hover{
+    box-shadow: 0px 0px 4px 4px rgb(177, 189, 189);
+}
+
 .green-energy-card{
     width: 410px;
     height: 325px;
@@ -102,6 +106,9 @@ body{
     margin-top: 32px;
     padding: 32px;
 }
+.green-energy-card:hover{
+    box-shadow: 0px 0px 4px 4px rgb(177, 189, 189);
+}
 .modern-infrastructure-card{
     width: 410px;
     height: 325px;
@@ -109,6 +116,9 @@ body{
     border-radius: 8px;
     margin-top: 32px;
     padding: 32px;
+}
+.modern-infrastructure-card:hover{
+    box-shadow: 0px 0px 4px 4px rgb(177, 189, 189);
 }
 .card-icon{
     margin-bottom: 12px;
@@ -221,6 +231,9 @@ body{
     height: 320px;
     margin-top: 32px;
 
+}
+.news-card1:hover{
+    box-shadow: 0px 0px 4px 4px rgb(177, 189, 189);
 }
 .news-description{
     font-family: Fira sans;
