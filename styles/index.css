@@ -62,6 +62,7 @@ body{
 }
 
 /* Future vision page design */
+
 #future-vision-page{
     padding-left: 160px;
     padding-right: 160px;
@@ -167,7 +168,7 @@ body{
     height: 240px;
     background-color: #FFFFFF;
     margin-top: 32px;
-    border-radius: 8px;
+    border-radius: 10px;
     border: 3px solid #F1F1F3;
     padding: 48px 24px;
 }
@@ -200,4 +201,80 @@ body{
     font-size: 16px;
     line-height: 24px;
     color: #0e0e0e82;
+}
+ /* Recent news page design */
+
+#recent-news-page{
+    height: 560px;
+    max-width: 1280px; 
+    margin: 80px 160px 80px 160px;
+    
+}
+
+.news-card1{
+    display: flex;
+    gap: 32px;
+    padding: 48px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    max-width: 1280px;
+    height: 320px;
+    margin-top: 32px;
+
+}
+.news-description{
+    font-family: Fira sans;
+    font-size: 16px;
+    font-weight: regular;
+    line-height: 24px;
+    color: #0e0e0eba;
+}
+.news-title{
+    font-family: Fira sans;
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.news1-image{
+    border-radius: 8%;
+    
+
+}
+.card1-news-title{
+    font-family: Fira sans;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: auto;
+    color: #0e0e0ecf;
+}
+.news-time{
+    margin-top: 12px;
+}
+.news-time, .card1-news-description{
+    font-family: Fira sans;
+    font-size: 16px;
+    font-weight: regular;
+    line-height: 24px;
+    color: #0e0e0ec3;
+}
+.card1-news-description{
+    margin-top: 12px;
+}
+.read-more-btn{
+    width: 122px;
+    height: 41px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    margin-top: 32px;
+    font-weight: 600px;
+    font-size: 16px;
+    font-family: Fira sans;
+    cursor: pointer;
+    background-color: #006A50;
+}
+.read-more-btn:hover{
+    background-color: #50cb94;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    font-size: 17px;
 }
