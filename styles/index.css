@@ -205,7 +205,6 @@ body{
  /* Recent news page design */
 
 #recent-news-page{
-    height: 560px;
     max-width: 1280px; 
     margin: 80px 160px 80px 160px;
     
@@ -237,7 +236,6 @@ body{
 }
 .news1-image{
     border-radius: 8%;
-    
 
 }
 .card1-news-title{
@@ -277,4 +275,100 @@ body{
     background-color: #50cb94;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     font-size: 17px;
+}
+
+/* Donate page design */
+#donate-page{
+    height: 400px;
+    max-width: 1280px; 
+    margin: 80px 160px 80px 160px;
+}
+.donate-title{
+    font-family: Fira sans;
+    font-weight: bold;
+    font-size: 40px;
+    color: #0E0E0E;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.donate-description{
+    font-family: Fira sans;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0e0e0eaf;
+    max-width: 1104px;
+    margin-left: 88px;
+    margin-right: 88px;
+}
+.taka-card{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.taka100, .taka200, .taka500, .taka1000{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 32px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    cursor: pointer;
+    border: 3px solid #F1F1F3;
+
+}
+.amount100, .amount200, .amount500, .amount1000{
+    font-family: Fira sans;
+    font-size: 40px;
+    font-weight: bold;
+    color: #0e0e0ecf;
+}
+.taka200{
+    background-color: #C6E4D6;
+}
+.taka100:hover{
+    background-color: #C6E4D6;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.taka200:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.taka500:hover{
+    background-color: #C6E4D6;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.taka1000:hover{
+    background-color: #C6E4D6;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.input-amount{
+    width: 1032px;
+    height: 60px;
+    margin-left: 70px;
+    margin-right: 120px ;
+    border: none;
+    text-align: center;
+    border: 3px solid #F1F1F3;
+}
+.donate-btn-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.donate-btn{
+    width: 122px;
+    height: 41px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    margin-top: 32px;
+    font-weight: 600px;
+    font-size: 18px;
+    font-family: Fira sans;
+    cursor: pointer;
+    background-color: #006A50;
+    align-items: center;
+}
+.donate-btn:hover{
+    background-color: #50cb94;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    font-size: 19px;
 }
